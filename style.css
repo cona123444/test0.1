@@ -1,0 +1,192 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.d1{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(188, 217, 241);
+}
+.d2{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(197, 248, 235);
+}
+.d3{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(204, 248, 214);
+}
+.d4{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(228, 245, 197);
+}
+.d1 li{
+    background-color: rgb(143, 191, 233);
+    line-height: 3em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 4em;
+    width: 60%;
+    height: 50px;
+    list-style-position: inside;
+}
+.d1 li:hover{
+    background-color: rgb(75, 164, 241);
+    color: white;
+    width: 60%;
+    height: 50px;
+    background: linear-gradient( to left, rgb(0, 55, 128), rgb(0, 102, 255));
+}
+.d2 li{
+    background-color: rgb(137, 231, 219);
+    line-height: 3em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 4em;
+    width: 60%;
+    height: 50px;
+    list-style-position: inside;
+}
+.d2 li:hover{
+    background-color: rgb(75, 241, 205);
+    color: white;
+    width: 60%;
+    height: 50px;
+    background: radial-gradient(#03fff2, #00706b);
+}
+.d3 li{
+    background-color: rgb(129, 228, 142);
+    line-height: 3em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 4em;
+    width: 60%;
+    height: 50px;
+    list-style-position: inside;
+}
+.d3 li:hover{
+    background-color: rgb(75, 241, 103);
+    color: white;
+    width: 60%;
+    height: 50px;
+    background: radial-gradient(circle, #07ff45, #037208);
+}
+.d4 li{
+    background-color: rgb(203, 230, 141);
+    line-height: 3em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 4em;
+    width: 60%;
+    height: 50px;
+    list-style-position: inside;
+}
+.d4 li:hover{
+    background-color: rgb(197, 241, 75);
+    color: white;
+    width: 60%;
+    height: 50px;
+    background: conic-gradient(from 90deg, rgb(187, 255, 0), yellow, rgb(24, 173, 4)); 
+}
+.nami{
+    position: sticky;
+    top: 0;
+}
+.nami ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #d5b7f1;
+    font-size: 20px;
+    width: 100%;
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    overflow: hidden;
+}
+.nami a{
+    display: block;
+    text-decoration: none;
+    color: #3e0b6e;
+    padding: 8px 16px;
+    float: left;
+}
+.nami a:hover{
+    background-color: #8252af;
+    color: white;
+}
+.form{
+    width: 100%;
+    float: left;
+    display: flex;
+}
+.srearch{
+     width: 100%;
+}
+.button{
+    width: 5%;            
+         
+    padding: 5px 15px;   
+    border: 1px;          
+    font-size: 10px;     
+    background-color: rgb(88, 35, 138);
+    color: aliceblue;     
+}
+.button:hover{        
+    cursor: pointer;  
+    background-color: rgb(130, 36, 167);
+    color: rgb(137, 137, 206);
+}
+.img_button{
+    height: 1em;
+    position: relative;
+    padding-right: 1em;
+}
+.img_button:hover{
+    cursor: pointer;
+}
